@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-}
+
 /*navbar*/
 nav{
     display: flex;
@@ -41,7 +38,7 @@ nav .loginBtn span{
     font-size: 20px;
     color: black;
 }
-/****first section*******/
+/* start first section */
 .firstSec{
     position: relative;
 }
@@ -99,7 +96,8 @@ nav .loginBtn span{
     top: 70%;
     left: -18%;
 }
-/*******************second section**************************/
+    /* end first section */
+/* frist second section*/
 .secondSec{
     position: relative;
     text-align: center;
@@ -170,7 +168,8 @@ nav .loginBtn span{
     font-size: 50px;
     font-weight: 400;
 }
-/********third section****************/
+    /* end second section*/
+/*start third section*/
 .thirdSec{
     padding-top: 150px;
     display: flex;
@@ -191,7 +190,7 @@ nav .loginBtn span{
     font-weight: 400;
     margin-top: 10px;
 }
-/***************footer***************************/
+/*footer*/
 footer{
     position: relative;
     height: 80vh;
@@ -269,7 +268,7 @@ footer .footerBtn div span{
 }
 
 @media only screen and (max-width:1200px) {
-    /****first section*******/
+    /*first section*/
     .secBackground{
         height: 80vh;
     }
@@ -285,7 +284,7 @@ footer .footerBtn div span{
     .waves{
         top: 70%;
     }
-    /*******************second section**************************/
+    /*second section*/
     .threedivs div{
         width: 300px;
     }
@@ -313,7 +312,7 @@ footer .footerBtn div span{
     .div4all div h3{
         font-size: 40px;
     }
-    /********third section****************/
+    /*third section*/
     .thirdSec{
         padding-top: 10px;
     }
@@ -323,13 +322,13 @@ footer .footerBtn div span{
     .thirdSec .smallImg{
         width: 200px;
     }
-    /***************footer***************************/
+    /*footer*/
     footer{
         height: 70vh;
     }
 }
 @media only screen and (max-width:992px) {
-    /****first section*******/
+    /*first section*/
     .secBackground{
         height: 70vh;
     }
@@ -342,7 +341,7 @@ footer .footerBtn div span{
     .divText p{
         font-size: 18px;
     }
-    /*******************second section**************************/
+    /*second section*/
     .secondSec{
         height: 100vh;
     }
@@ -360,7 +359,7 @@ footer .footerBtn div span{
     .div4{
         top: 55%;
     }
-    /***************footer***************************/
+ /* footer*/
     footer{
         height: 60vh;
     }
@@ -379,7 +378,7 @@ footer .footerBtn div span{
     nav ul li a{
         font-size: 8px;
     }
-    /****first section*******/
+    /*first section*/
     .secBackground{
         height: 400px;
     }
@@ -420,7 +419,7 @@ footer .footerBtn div span{
         top: 10%;
         font-size: 15px;
     }
-    /****first section*******/
+    /*first section*/
     .secBackground{
         height: 380px;
     }
@@ -430,7 +429,7 @@ footer .footerBtn div span{
     .divText p{
         font-size: 12px;
     }
-    /*******************second section**************************/
+    /*second section*/
     .secondSec{
         height: 80vh;
     }
@@ -461,7 +460,7 @@ footer .footerBtn div span{
     .div4all div h3{
         font-size: 30px;
     }
-    /********third section****************/
+    /*third section*/
     .thirdSec{
         padding-top: 10px;
     }
@@ -474,7 +473,7 @@ footer .footerBtn div span{
     .thirdSec .smallImg{
         width: 150px;
     }
-    /***************footer***************************/
+    /*footer*/
     footer{
         height: 40vh;
     }
@@ -522,7 +521,7 @@ footer .footerBtn div span{
         top: 15%;
         font-size: 10px;
     }
-    /****first section*******/
+    /*first section*/
     .firstDiv{
         padding: 0px 50px;
     }
@@ -536,7 +535,7 @@ footer .footerBtn div span{
         margin-top: 10px;
         font-size: 8px;
     }
-    /********second section*****/
+    /*second section*/
     .secondSec{
         height: 60vh;
     }
@@ -588,7 +587,7 @@ footer .footerBtn div span{
     .div4all div h3{
         font-size: 20px;
     }
-    /********third section********/
+    /*third section*/
     .thirdSec{
         padding-top: 10px;
     }
@@ -607,7 +606,7 @@ footer .footerBtn div span{
     .thirdSec .smallImg{
         width: 100px;
     }
-    /*********footer*****/
+    /*footer*/
     footer{
         height: 50vh;
     }
@@ -658,7 +657,7 @@ footer .footerBtn div span{
         top: 18%;
         font-size: 8px;
     }
-    /****first section*******/
+    /*first section*/
     .secBackground{
         height: 170px;
     }
@@ -675,7 +674,7 @@ footer .footerBtn div span{
         font-size: 8px;
         margin-top: 5px;
     }
-    /* ***second section******** */
+    /* second section */
     .secondSec{
         height: 40vh;
     }
@@ -720,7 +719,7 @@ footer .footerBtn div span{
     .div4all div h3{
         font-size: 15px;
     }
-    /********third section********/
+    /*third section*/
     .thirdSec{
         padding-top: 10px;
     }
@@ -739,7 +738,7 @@ footer .footerBtn div span{
     .thirdSec .smallImg{
         width: 50px;
     }
-    /*********footer*****/
+    /*footer*/
     footer{
         height: 30vh;
     }
